@@ -1,0 +1,26 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    
+    <!-- Button Heights -->
+    <sys:Double x:Key="AuroraButtonHeightNormal">36</sys:Double>
+    <sys:Double x:Key="AuroraButtonHeightSmall">30</sys:Double>
+    <sys:Double x:Key="AuroraButtonHeightMini">25</sys:Double>
+
+    <!-- Button Widths -->
+    <sys:Double x:Key="AuroraButtonWidthLarge">120</sys:Double>
+    <sys:Double x:Key="AuroraButtonWidthNormal">100</sys:Double>
+    <sys:Double x:Key="AuroraButtonWidthSmall">90</sys:Double>
+    <sys:Double x:Key="AuroraButtonWidthMini">60</sys:Double>
+    <sys:Double x:Key="AuroraButtonWidthIcon">36</sys:Double>
+    <sys:Double x:Key="AuroraButtonWidthIconSmall">30</sys:Double>
+
+    <!-- Square Button Sizes -->
+    <sys:Double x:Key="AuroraButtonSizeIcon">36</sys:Double>
+    <sys:Double x:Key="AuroraButtonSizeIconSmall">30</sys:Double>
+
+    <!-- Action Card Sizes -->
+    <sys:Double x:Key="AuroraActionCardWidth">410</sys:Double>
+    <sys:Double x:Key="AuroraActionCardHeight">120</sys:Double>
+
+</ResourceDictionary>

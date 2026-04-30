@@ -1,0 +1,99 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:o="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options">
+
+    <SolidColorBrush x:Key="PrimaryBackground" Color="#0078D4"/>
+    <SolidColorBrush x:Key="PrimaryForeground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="PrimaryBorder" Color="#0078D4"/>
+
+    <SolidColorBrush x:Key="SecondaryBackground" Color="#F3F3F3"/>
+    <SolidColorBrush x:Key="SecondaryForeground" Color="#1A1A1A"/>
+    <SolidColorBrush x:Key="SecondaryBorder" Color="#D1D1D1"/>
+
+    <SolidColorBrush x:Key="HighlightBackground" Color="#E5F1FB"/>
+    <SolidColorBrush x:Key="AccentBrush" Color="#0078D4"/>
+    <SolidColorBrush x:Key="AccentSoftBrush" Color="#D9ECFF"/>
+    <SolidColorBrush x:Key="AccentSubtleBrush" Color="#F2F8FF"/>
+    <SolidColorBrush x:Key="SurfaceBackground" Color="#F4F7FB"/>
+    <SolidColorBrush x:Key="SurfaceRaisedBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="SurfaceMutedBackground" Color="#EEF3F8"/>
+    <SolidColorBrush x:Key="SurfaceBorder" Color="#DCE5EF"/>
+    <SolidColorBrush x:Key="SurfaceStrongBorder" Color="#B8C9DA"/>
+    <SolidColorBrush x:Key="TextMuted" Color="#667085"/>
+    <SolidColorBrush x:Key="TextTertiary" Color="#8A8886"/>
+
+    <!-- Aurora semantic color keys -->
+    <SolidColorBrush x:Key="NeutralBackground" Color="#F5F5F5"/>
+    <SolidColorBrush x:Key="TextPrimary" Color="#1A1A1A"/>
+    <SolidColorBrush x:Key="TextSecondary" Color="#5E5E5E"/>
+    <SolidColorBrush x:Key="DataGridCellSelectedBackground" Color="#E5F1FB"/>
+    <SolidColorBrush x:Key="CategoryGridBackground" Color="#F5F5F5"/>
+    <SolidColorBrush x:Key="CategoryGridCellBackground" Color="#FFFFFF"/>
+
+    <SolidColorBrush x:Key="AuroraGreen" Color="#107C10"/>
+    <SolidColorBrush x:Key="AuroraRed" Color="#C42B1C"/>
+    <SolidColorBrush x:Key="AuroraYellow" Color="#F9A825"/>
+
+    <SolidColorBrush x:Key="HighlightForeground" Color="#005A9E"/>
+    <SolidColorBrush x:Key="HighlightBorder" Color="#2899F5"/>
+    <SolidColorBrush x:Key="SelectedBackground" Color="#0078D4"/>
+    <SolidColorBrush x:Key="SelectedForeground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="SelectedBorder" Color="#0078D4"/>
+    <SolidColorBrush x:Key="PrimaryBrush" Color="#006cbe"/>
+    <Color x:Key="PrimaryColor">#006cbe</Color>
+    <SolidColorBrush x:Key="DisabledBackground" Color="#F0F0F0"/>
+    <SolidColorBrush x:Key="DisabledForeground" Color="#9D9D9D"/>
+    <SolidColorBrush x:Key="DisabledBorder" Color="#E0E0E0"/>
+    <SolidColorBrush x:Key="TextPlaceholder" Color="#8A8886"/>
+    <SolidColorBrush x:Key="LightBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="DarkBackground" Color="#202020"/>
+    <SolidColorBrush x:Key="GroupBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="NeutralBorder" Color="#E5E5E5"/>
+    <SolidColorBrush x:Key="DarkBorder" Color="#605E5C"/>
+    <SolidColorBrush x:Key="SuccessBackground" Color="#107C10"/>
+    <SolidColorBrush x:Key="SuccessBrush" Color="#107C10"/>
+    <Color x:Key="SuccessColor">#107C10</Color>
+    <SolidColorBrush x:Key="WarningBackground" Color="#F9A825"/>
+    <SolidColorBrush x:Key="ErrorBackground" Color="#C42B1C"/>
+    <SolidColorBrush x:Key="PlaceholderForeground" Color="#8A8886"/>
+    <SolidColorBrush x:Key="ButtonBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="ButtonHoverBackground" Color="#F5F5F5"/>
+    <SolidColorBrush x:Key="ButtonPressedBackground" Color="#005A9E"/>
+    <SolidColorBrush x:Key="ButtonPressedForeground" Color="#fff"/>
+    <SolidColorBrush x:Key="ToggleButtonOn" Color="#0078D4"/>
+    <SolidColorBrush x:Key="ToggleButtonOff" Color="#8A8886"/>
+    <SolidColorBrush x:Key="TextBoxBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="TextBoxSelectedBackground" Color="#CCE8FF"/>
+    <SolidColorBrush x:Key="TextBoxHoverBorder" Color="#0078D4"/>
+    <SolidColorBrush x:Key="ComboBoxBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="ComboBoxCheckedBackground" Color="#F5F5F5"/>
+    <SolidColorBrush x:Key="ComboBoxCheckedArrow" Color="#605E5C"/>
+    <SolidColorBrush x:Key="ComboBoxBorder" Color="#605E5C"/>
+    <SolidColorBrush x:Key="ComboBoxArrow" Color="#605E5C"/>
+    <SolidColorBrush x:Key="ComboBoxDisabledForeground" Color="#9D9D9D"/>
+    <SolidColorBrush x:Key="ComboBoxDisabledBackground" Color="#F0F0F0"/>
+    <SolidColorBrush x:Key="ComboBoxDisabledBorder" Color="#E0E0E0"/>
+    <SolidColorBrush x:Key="DataGridHeaderBackground" Color="#F5F5F5"/>
+    <SolidColorBrush x:Key="DataGridCellBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="DataGridHeaderGripper" Color="#605E5C"/>
+    <SolidColorBrush x:Key="ListBoxItemHoverBackground" Color="#F5F5F5"/>
+    <SolidColorBrush x:Key="ListBoxItemSelectedBackground" Color="#E5F1FB"/>
+    <SolidColorBrush x:Key="ListBoxItemSelectedForeground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="ProgressBarBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="ProgressBarForeground" Color="#0078D4"/>
+    <SolidColorBrush x:Key="ProgressBarBottomForeground" Color="#005A9E"/>
+    <SolidColorBrush x:Key="TreeViewBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="TreeViewForeground" Color="#1A1A1A"/>
+    <SolidColorBrush x:Key="TreeViewArrowFill" Color="#605E5C"/>
+    <SolidColorBrush x:Key="TreeViewArrowHoverFill" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="SearchBoxForeground" Color="#5E5E5E"/>
+    <SolidColorBrush x:Key="SearchBoxBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="SearchBoxHoverBackground" Color="#F5F5F5"/>
+    <SolidColorBrush x:Key="SearchBoxPressedBackground" Color="#0078D4"/>
+    <SolidColorBrush x:Key="CloseButtonHoverBackground" Color="#E81123"/>
+    <SolidColorBrush x:Key="CloseButtonPressedBackground" Color="#A80000"/>
+    <SolidColorBrush x:Key="CloseButtonStroke" Color="#AAFFFFFF"/>
+    <SolidColorBrush x:Key="ScrollBarHoverBackground" Color="#05FFFFFF"/>
+
+    <Geometry o:Freeze="True" x:Key="ClockGeometry">M498.506684 256.571517 425.359734 256.571517 425.359734 622.190635 720.166063 622.190635 720.166063 549.725206 498.506684 549.725206ZM512.714268 80.162738c-245.740844 0-445.181175 197.577914-445.181175 441.024505s199.439308 441.024505 445.181175 441.024505c245.738797 0 445.178105-197.577914 445.178105-441.024505S758.453065 80.162738 512.714268 80.162738zM512.714268 874.005824c-195.880249 0-356.145349-158.768003-356.145349-352.818581s160.2651-352.821651 356.145349-352.821651c195.877179 0 356.14228 158.77005 356.14228 352.821651S708.591447 874.005824 512.714268 874.005824z</Geometry>
+</ResourceDictionary>

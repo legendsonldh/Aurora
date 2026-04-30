@@ -1,0 +1,131 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- ==================== Base Spacing Primitives ==================== -->
+    <sys:Double x:Key="AuroraSpacing2">2</sys:Double>
+    <sys:Double x:Key="AuroraSpacing4">4</sys:Double>
+    <sys:Double x:Key="AuroraSpacing5">5</sys:Double>
+    <sys:Double x:Key="AuroraSpacing6">6</sys:Double>
+    <sys:Double x:Key="AuroraSpacing8">8</sys:Double>
+    <sys:Double x:Key="AuroraSpacing10">10</sys:Double>
+    <sys:Double x:Key="AuroraSpacing12">12</sys:Double>
+    <sys:Double x:Key="AuroraSpacing14">14</sys:Double>
+    <sys:Double x:Key="AuroraSpacing16">16</sys:Double>
+    <sys:Double x:Key="AuroraSpacing20">20</sys:Double>
+    <sys:Double x:Key="AuroraSpacing24">24</sys:Double>
+
+    <!-- ==================== Standard Margins (Thickness) ==================== -->
+
+    <!-- Uniform -->
+    <Thickness x:Key="AuroraMarginNone">0</Thickness>
+    <Thickness x:Key="AuroraMarginXSmall">4</Thickness>
+    <Thickness x:Key="AuroraMarginSmall">5</Thickness>
+    <Thickness x:Key="AuroraMarginMedium">8</Thickness>
+    <Thickness x:Key="AuroraMarginLarge">10</Thickness>
+    <Thickness x:Key="AuroraMarginXLarge">12</Thickness>
+
+    <!-- Left-only -->
+    <Thickness x:Key="AuroraMarginLeftSmall">5,0,0,0</Thickness>
+    <Thickness x:Key="AuroraMarginLeft">8,0,0,0</Thickness>
+    <Thickness x:Key="AuroraMarginLeftLarge">10,0,0,0</Thickness>
+    <Thickness x:Key="AuroraMarginLeftXLarge">12,0,0,0</Thickness>
+    <Thickness x:Key="AuroraMarginLeftButton">8,0,0,0</Thickness>
+
+    <!-- Right-only -->
+    <Thickness x:Key="AuroraMarginRightTiny">0,0,4,0</Thickness>
+    <Thickness x:Key="AuroraMarginRightSmall">0,0,5,0</Thickness>
+    <Thickness x:Key="AuroraMarginRight">0,0,8,0</Thickness>
+    <Thickness x:Key="AuroraMarginRightLarge">0,0,10,0</Thickness>
+    <Thickness x:Key="AuroraMarginRightXLarge">0,0,12,0</Thickness>
+    <Thickness x:Key="AuroraMarginRightXXLarge">0,0,16,0</Thickness>
+
+    <!-- Top-only -->
+    <Thickness x:Key="AuroraMarginTopTiny">0,4,0,0</Thickness>
+    <Thickness x:Key="AuroraMarginTopSmall">0,8,0,0</Thickness>
+    <Thickness x:Key="AuroraMarginTop">0,10,0,0</Thickness>
+    <Thickness x:Key="AuroraMarginTopLarge">0,12,0,0</Thickness>
+    <Thickness x:Key="AuroraMarginTopXLarge">0,16,0,0</Thickness>
+
+    <!-- Bottom-only -->
+    <Thickness x:Key="AuroraMarginBottomTiny">0,0,0,4</Thickness>
+    <Thickness x:Key="AuroraMarginBottomSmall">0,0,0,5</Thickness>
+    <Thickness x:Key="AuroraMarginBottom">0,0,0,6</Thickness>
+    <Thickness x:Key="AuroraMarginBottomLarge">0,0,0,8</Thickness>
+    <Thickness x:Key="AuroraMarginBottomXLarge">0,0,0,10</Thickness>
+    <Thickness x:Key="AuroraMarginBottomXXLarge">0,0,0,12</Thickness>
+
+    <!-- Horizontal pairs -->
+    <Thickness x:Key="AuroraMarginHorizontalSmall">4,0</Thickness>
+    <Thickness x:Key="AuroraMarginHorizontal">5,0</Thickness>
+    <Thickness x:Key="AuroraMarginHorizontalMedium">8,0</Thickness>
+    <Thickness x:Key="AuroraMarginHorizontalLarge">10,0</Thickness>
+    <Thickness x:Key="AuroraMarginHorizontalXLarge">12,0</Thickness>
+
+    <!-- Vertical pairs -->
+    <Thickness x:Key="AuroraMarginVerticalSmall">0,4</Thickness>
+    <Thickness x:Key="AuroraMarginVertical">0,5</Thickness>
+    <Thickness x:Key="AuroraMarginVerticalMedium">0,8</Thickness>
+    <Thickness x:Key="AuroraMarginVerticalLarge">0,10</Thickness>
+    <Thickness x:Key="AuroraMarginVerticalXLarge">0,12</Thickness>
+
+    <!-- Left-right symmetric -->
+    <Thickness x:Key="AuroraMarginSymmetricSmall">5,0,5,0</Thickness>
+    <Thickness x:Key="AuroraMarginSymmetric">8,0,8,0</Thickness>
+    <Thickness x:Key="AuroraMarginSymmetricMedium">10,0,10,0</Thickness>
+    <Thickness x:Key="AuroraMarginSymmetricLarge">12,0,12,0</Thickness>
+
+    <!-- ==================== Standard Padding ==================== -->
+    <Thickness x:Key="AuroraPaddingXSmall">4</Thickness>
+    <Thickness x:Key="AuroraPaddingSmall">5</Thickness>
+    <Thickness x:Key="AuroraPaddingMedium">8</Thickness>
+    <Thickness x:Key="AuroraPaddingLarge">10</Thickness>
+    <Thickness x:Key="AuroraPaddingXLarge">12</Thickness>
+    <Thickness x:Key="AuroraPaddingContent">12,10</Thickness>
+
+    <!-- ==================== Font Sizes ==================== -->
+    <sys:Double x:Key="AuroraFontSizeXSmall">9</sys:Double>
+    <sys:Double x:Key="AuroraFontSizeSmall">10</sys:Double>
+    <sys:Double x:Key="AuroraFontSizeCaption">11</sys:Double>
+    <sys:Double x:Key="AuroraFontSizeBody">12</sys:Double>
+    <sys:Double x:Key="AuroraFontSizeBodyLarge">13</sys:Double>
+    <sys:Double x:Key="AuroraFontSizeSubtitle">14</sys:Double>
+    <sys:Double x:Key="AuroraFontSizeTitle">16</sys:Double>
+    <sys:Double x:Key="AuroraFontSizeTitleLarge">18</sys:Double>
+    <sys:Double x:Key="AuroraFontSizeHeading">20</sys:Double>
+    <sys:Double x:Key="AuroraFontSizeHeadingLarge">24</sys:Double>
+    <sys:Double x:Key="AuroraFontSizeDisplay">28</sys:Double>
+
+    <!-- ==================== Corner Radius ==================== -->
+    <CornerRadius x:Key="AuroraCornerNone">0</CornerRadius>
+    <CornerRadius x:Key="AuroraCornerSmall">3</CornerRadius>
+    <CornerRadius x:Key="AuroraCornerMedium">4</CornerRadius>
+    <CornerRadius x:Key="AuroraCornerLarge">6</CornerRadius>
+    <CornerRadius x:Key="AuroraCornerXLarge">8</CornerRadius>
+    <CornerRadius x:Key="AuroraCornerRound">10</CornerRadius>
+    <CornerRadius x:Key="AuroraCornerPill">12</CornerRadius>
+
+    <!-- ==================== Opacity ==================== -->
+    <sys:Double x:Key="AuroraOpacityDisabled">0.5</sys:Double>
+    <sys:Double x:Key="AuroraOpacitySubtle">0.6</sys:Double>
+    <sys:Double x:Key="AuroraOpacityMedium">0.3</sys:Double>
+    <sys:Double x:Key="AuroraOpacityLight">0.15</sys:Double>
+    <sys:Double x:Key="AuroraOpacityNone">0</sys:Double>
+
+    <!-- ==================== Icon Sizes ==================== -->
+    <sys:Double x:Key="AuroraIconSizeXSmall">10</sys:Double>
+    <sys:Double x:Key="AuroraIconSizeSmall">12</sys:Double>
+    <sys:Double x:Key="AuroraIconSizeMedium">14</sys:Double>
+    <sys:Double x:Key="AuroraIconSizeLarge">16</sys:Double>
+    <sys:Double x:Key="AuroraIconSizeXLarge">18</sys:Double>
+    <sys:Double x:Key="AuroraIconSizeXXLarge">20</sys:Double>
+    <sys:Double x:Key="AuroraIconSizeBadge">8</sys:Double>
+
+    <!-- ==================== Standard Heights ==================== -->
+    <sys:Double x:Key="AuroraHeightDivider">1</sys:Double>
+    <sys:Double x:Key="AuroraHeightStatusDot">8</sys:Double>
+    <sys:Double x:Key="AuroraHeightGridSplitter">4</sys:Double>
+    <sys:Double x:Key="AuroraHeightSeparator">1</sys:Double>
+    <sys:Double x:Key="AuroraHeightProgressBar">5</sys:Double>
+
+</ResourceDictionary>
