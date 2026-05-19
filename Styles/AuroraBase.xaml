@@ -74,5 +74,22 @@
         <Setter Property="BorderBrush" Value="{StaticResource PrimaryBorder}"/>
     </Style>
 
+    <Style x:Key="AuroraSettingsCard" TargetType="{x:Type Border}">
+        <Setter Property="Background" Value="{StaticResource SurfaceRaisedBackground}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource SurfaceBorder}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="CornerRadius" Value="8"/>
+        <Setter Property="Padding" Value="16,12"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect BlurRadius="10"
+                                  Direction="270"
+                                  Opacity="0.15"
+                                  ShadowDepth="2"
+                                  Color="#223044"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
 
 </ResourceDictionary>

@@ -85,6 +85,9 @@
     <!-- Warning triangle with exclamation -->
     <Geometry o:Freeze="True" x:Key="IconWarningTriangle">M12.53,2.17L23.53,20.5C23.83,20.95 24,21.47 24,22C24,23.66 21.31,24 19.5,24H4.5C2.69,24 0,23.66 0,22C0,21.47 0.17,20.95 0.47,20.5L11.47,2.17C11.79,1.66 12.31,1.38 12.84,1.38C13.38,1.38 13.89,1.66 14.21,2.17H14.21zM13,18H11V20H13V18zM13,10H11V16H13V10z</Geometry>
 
+    <!-- Lightning / Quick Action (scale-independent coordinates) -->
+    <Geometry o:Freeze="True" x:Key="IconLightning">M19 2 L7 17 H16 V30 L27 14 H17 Z</Geometry>
+
     <!-- ==================== App Brand Logo ==================== -->
 
     <!-- CADE App Logo — rounded square with play triangle -->
