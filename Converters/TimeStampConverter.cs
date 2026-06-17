@@ -1,3 +1,4 @@
+using CADE.Aurora.Settings;
 using System;
 using System.Globalization;
 using System.Windows.Data;
@@ -14,7 +15,13 @@ public class TimeStampConverter : IValueConverter
             {
                 return string.Empty;
             }
-            return dateTimeOffset.ToString("yyyy-MM-dd HH:mm:ss.fff");
+
+            DateTimeOffset displayTime = TimeZoneSettings.UseLocalTime
+                ? dateTimeOffset.ToLocalTime()
+                : dateTimeOffset;
+
+            string suffix = TimeZoneSettings.UseLocalTime ? " (本地)" : " (UTC)";
+            return displayTime.ToString("yyyy-MM-dd HH:mm:ss.fff") + suffix;
         }
         return string.Empty;
     }
