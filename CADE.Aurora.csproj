@@ -16,8 +16,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="WPF-UI" Version="4.2.1" />
-    <PackageReference Include="Dirkster.AvalonDock" Version="4.74.0" />
+    <PackageReference Include="WPF-UI" Version="4.3.0" />
+    <PackageReference Include="Dirkster.AvalonDock" Version="4.74.1" />
   </ItemGroup>
 
 </Project>
